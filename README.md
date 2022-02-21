@@ -31,4 +31,8 @@ Help Bobby to determine the number of retiring employees per title, and identify
 
 ## Summary
 ### Deliverable 3: A written report on the employee database analysis 
-
+1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+  - There are 72,458 eligible employees for retirement.
+  
+2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+  - A total of 1,549 workers are eligible for the mentorship program.
