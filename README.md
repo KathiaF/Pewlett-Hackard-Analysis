@@ -52,8 +52,8 @@ The purpose of this project is to gain insight into the possible impact the next
         -  *Quality Managment (86)*
         -  *Finance (64)* 
   - Mentorship program per title:
-    - There are plenty of Senior Engineer, Senior Staff, Engineer and Staff available to train the new hires.
-    - There are less of Technique Leader, Assistant Engineer and Staff available to train the new hires.
+    - There are plenty of Senior Engineer (569), Senior Staff (501), Engineer (169) and Staff (155) available to train the new hires.
+    - There are less of Assistant Engineer (77) and Technique Leader (78) available to train the new hires.
     - There aren't any manager titles
 
 Due to the fact that the number of retirement-ready employees excess the number of employees capable of mentoring new employees I would greatly advise investing in training programs for both current employees and new hires.
