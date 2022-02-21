@@ -1,6 +1,9 @@
 # Pewlett-Hackard-Analysis
 ## Project Overview
-Help Bobby to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program
+Pewlett Hackard (PH) is a large company boasting several thousand employees and it's been around for a long time, as baby boomers begin to retire at a rapid rate Hewlett-Packard is looking toward the future in two ways first its offering retirement package for those who meet certain criteria; second it's starting to think about which positions will need to be filled.
+
+The purpose of this project is to gain insight into the possible impact the next "silver tsunami" will have on PH. To perform this analysis we need to help Bobby to determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program.
+
 
 ## Resources
 - Software: ProsgreSQL, PGAdmin
@@ -31,8 +34,8 @@ Help Bobby to determine the number of retiring employees per title, and identify
 
 ## Summary
 ### Deliverable 3: A written report on the employee database analysis 
-1. How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+- How many roles will need to be filled as the "silver tsunami" begins to make an impact?
   - There are 72,458 eligible employees for retirement.
   
-2. Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+- Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
   - A total of 1,549 workers are eligible for the mentorship program.
