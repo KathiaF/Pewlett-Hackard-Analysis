@@ -99,4 +99,23 @@ WHERE ut.title = 'Manager';
 SELECT * FROM mentorship_eligibilty
 WHERE title = 'Manager'; 
 
-
+-- retirement by title 
+SELECT COUNT (t1.title), t1.title
+FROM (
+SELECT DISTINCT ON (emp.emp_no) emp.emp_no , 
+	emp.first_name, 
+	emp.last_name,
+	de.from_date,
+	de.to_date,
+	ti.title,
+	de.dept_no,
+	d.dept_name
+FROM employees AS emp
+LEFT JOIN dept_emp AS de ON (emp.emp_no = de.emp_no)
+LEFT JOIN titles AS ti ON (emp.emp_no = ti.emp_no)
+LEFT JOIN departments AS d ON (de.dept_no = d.dept_no)
+WHERE de.to_date = '9999-01-01' 
+	AND (emp.birth_date BETWEEN '1965-01-01'AND '1965-12-31')
+) AS t1 
+GROUP BY t1.title
+ORDER BY COUNT(t1.title) DESC;
