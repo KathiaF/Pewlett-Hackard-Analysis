@@ -8,7 +8,7 @@ SELECT emp.emp_no,
 	ti.to_date
 INTO retirement_titles
 FROM employees AS emp
-LEFT JOIN titles ti ON emp.emp_no = ti.emp_no
+LEFT JOIN titles AS ti ON emp.emp_no = ti.emp_no
 WHERE (emp.birth_date BETWEEN '1952-01-01' and '1955-12-31')
 ORDER BY emp.emp_no;
 
